@@ -3,3 +3,12 @@
 
 #any excel files
 *.csv
+
+#python checkpoints
+.ipynb_checkpoints
+
+#executables
+*~
+
+#idk what these files are
+_*
