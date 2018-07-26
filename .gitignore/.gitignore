@@ -7,8 +7,11 @@
 #python checkpoints
 .ipynb_checkpoints
 
-#executables
-*~
+#temp files
+*.py~
 
 #idk what these files are
 _*
+
+# I dont think I want the cache on my github
+__pycache__
