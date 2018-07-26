@@ -15,11 +15,9 @@ def main():
 def getStockData(tickerList):
    dfList = list()
    for tickerSymbol in tickerList:
-      try:
-         df = YahooFinanceHistory(tickerSymbol, days_back=30).get_quote()
-         dfList.append(df)
-      except:
-         print("could not find " + tickerSymbol)
+      print(tickerSymbol)
+      df = YahooFinanceHistory(tickerSymbol, days_back=30).get_quote()
+      dfList.append(df)
    return dfList
 
 # returns a list of tickers
